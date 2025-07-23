@@ -43,23 +43,26 @@ Frontend: Streamlit web app collects user inputs and displays the prediction, di
 # How to Clone and Run HealSense Locally
 
 1. Clone the repository:
-git clone https://github.com/saumya-singh-14/healsense.git
+
+  git clone https://github.com/saumya-singh-14/healsense.git
 
 2. Navigate into the project folder:
-cd healsense
+
+  cd healsense
 
 3. Install required dependencies:
-pip install pandas scikit-learn streamlit numpy pyttsx3
+
+  pip install pandas scikit-learn streamlit numpy pyttsx3
 
 4. Run the application:
 
-streamlit run app.py
+  streamlit run app.py
 
-You’ll see a local URL in the terminal, e.g.:
+  You’ll see a local URL in the terminal, e.g.:
 
-Local URL: http://localhost:8501
+  Local URL: http://localhost:8501
 
-Open it in your browser to use the app.
+  Open it in your browser to use the app.
 
 # Disclaimer
 
