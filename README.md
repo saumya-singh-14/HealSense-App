@@ -44,7 +44,7 @@ Frontend: Streamlit web app collects user inputs and displays the prediction, di
 
 1. Clone the repository:
 
-  <br>git clone https://github.com/saumya-singh-14/healsense.git
+    git clone https://github.com/saumya-singh-14/healsense.git
 
 2. Navigate into the project folder:
 
