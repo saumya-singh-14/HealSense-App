@@ -30,20 +30,15 @@ pip install pandas scikit-learn streamlit numpy
 
 # Workflow Overview
 
-Data loading:
-Load training and testing data with symptoms and associated diseases.
+Data loading: Load training and testing data with symptoms and associated diseases.
 
-Preprocessing:
-Encode disease labels numerically using LabelEncoder, split data into training/testing sets.
+Preprocessing: Encode disease labels numerically using LabelEncoder, split data into training/testing sets.
 
-Model training:
-Train Decision Tree and SVM models; validate performance using cross-validation.
+Model training: Train Decision Tree and SVM models; validate performance using cross-validation.
 
-Prediction logic:
-Build a binary symptom vector based on user input; predict disease; map numeric label back to disease name.
+Prediction logic: Build a binary symptom vector based on user input; predict disease; map numeric label back to disease name.
 
-Frontend:
-Streamlit web app collects user inputs and displays the prediction, disease description and precautions.
+Frontend: Streamlit web app collects user inputs and displays the prediction, disease description and precautions.
 
 # How to Clone and Run HealSense Locally
 
@@ -59,8 +54,11 @@ pip install pandas scikit-learn streamlit numpy pyttsx3
 4. Run the application:
 
 streamlit run app.py
+
 You’ll see a local URL in the terminal, e.g.:
+
 Local URL: http://localhost:8501
+
 Open it in your browser to use the app.
 
 # Disclaimer
